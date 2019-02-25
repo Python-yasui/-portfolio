@@ -11,7 +11,8 @@ body{
   /* background-image: url(./IMG_3910.JPG); */
   /* background-size:100% auto; */
 }
-h1,h2 {
+h1,h2 span {
+  color: red;
   color: #222;
 }
 h1 {
