@@ -13,7 +13,7 @@ body{
 }
 h1,h2 span {
   color: red;
-  color: #222;
+  /* color: #222; */
 }
 h1 {
   font-size: x-large;
