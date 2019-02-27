@@ -1,19 +1,10 @@
 @charset "utf-8";
-
 /* デスクトップPCとスマホに適用するCSS */
-p
-{
-	color: #00f ;	/* 青色 */
-}
-
-/* スマホだけに適用するCSS */
-@media screen and ( max-width:479px )
-{
-	p
-	{
-		color: #f00 ;	/* 赤色 */
-	}
-}
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+  #menu-bg {
+  background-color: #00FF00; /*緑色*/
+  }
+  }
 /* 初期設定
 ------------------------------------- */
 
