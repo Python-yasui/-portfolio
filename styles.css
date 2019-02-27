@@ -14,12 +14,8 @@ body{
 }
 h1,h2 span {
   /* background: linear-gradient(#FFFF00, #1E00FF); */
-  .colorful span:nth-child(3n+1) { color: red; }
-  .colorful span:nth-child(3n+2) { color: blue; }
-  .colorful span:nth-child(3n) { color: green; }
-　.colorful span:nth-child(6) { color: skyblue;
-  /* color: red; */
-  /* color: #222; */
+  color: red;
+  color: #222;
 }
 
 h1 {
