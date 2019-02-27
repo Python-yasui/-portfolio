@@ -44,11 +44,12 @@ section, article, aside, nav, header, main, footer {
 main {
   float: left;
   width: 450px;
+  background: linear-gradient(#05FBFF, #1E00FF);
 }
 #sub {
   float: right;
   width: 450px;
-  background: linear-gradient(#05FBFF, #1E00FF);
+
 }
 footer {
   clear: both;
