@@ -13,7 +13,8 @@ body{
   /* background-size:100% auto; */
 }
 h1,h2 span {
-  color: red;
+  background: linear-gradient(#FFFF00, #1E00FF);
+  /* color: red; */
   /* color: #222; */
 }
 h1 {
@@ -44,7 +45,7 @@ section, article, aside, nav, header, main, footer {
 main {
   float: left;
   width: 450px;
-  background: linear-gradient(#05FBFF, #1E00FF);
+
 }
 #sub {
   float: right;
