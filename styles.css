@@ -6,31 +6,31 @@
   column-gap: 10px;
 }
 /* デスクトップPCとスマホに適用するCSS */
-img {
+/* img {
   max-width: 100% ;
   height: auto;
-  }
+  } */
 
-  #menu {
-  max-width: 1000px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  p
+  {
+    color: #00f; /*青色＊/
   }
-@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
-  #menu-bg {
-  background-color: #00FF00; /*緑色*/
-  }
-  }
+@media screen and(max -width:479px)
+{
+  p
+  {
+    color:#f00; /*赤色＊/
+
+
 /* 初期設定
 ------------------------------------- */
 
-body{
+/* body{
   margin: 0;
   padding: 0;
   font-size: small;
   color: #333;
-  background: #fff;
+  background: #fff; */
   /* background-image: url(./IMG_3910.JPG); */
   /* background-size:100% auto; */
 }
