@@ -7,7 +7,7 @@ body {
 
 header {
   color: #fff;
-  background: url(images/li-bg.jpg) repeat-x bottom;
+  background: url(images/li-bg.jpg);
   background-size: cover;
 }
 
@@ -43,5 +43,5 @@ header .container {
 }
 
 .btn:hover {
-  opacity: 0.9;
+  opacity: 1.0;
 }
