@@ -1,47 +1,155 @@
-body {
-  font-size: 16px;
-  font-family: Verdana, sans-serif;
-  color: #333;
+@charset "utf-8";
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+  row-gap: 10px;
+  column-gap: 10px;
+}
+/* デスクトップPCとスマホに適用するCSS */
+img {
+  max-width: 100% ;
+  height: auto;
+  }
+
+  #menu {
+  max-width: 1000px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+  #menu-bg {
+  background-color: #00FF00; /*緑色*/
+  }
+  }
+/* 初期設定
+------------------------------------- */
+
+body{
   margin: 0;
-}
-
-header {
-  color: #fff;
-  background: url(images/li-bg.jpg);
-  background-size: cover;
-}
-
-header h1 {
-  margin-top: 0;
-  font-weight: normal;
-  font-size: 36px;
-  margin-bottom: 8px;
-}
-
-header p {
-  margin-top: 0px;
-  margin-bottom: 50px;
-}
-
-header .container {
-  width: 820px;
-  margin: 0 auto;
-  padding: 60px 0;
-  /* background: pink; */
-}
-
-.btn {
-  display: inline-block;
-  width: 290px;
+  padding: 0;
+  font-size: small;
+  color: #333;
   background: #fff;
-  color: #f39800;
-  text-align: center;
-  text-decoration: none;
-  padding: 8px 0;
-  border-radius: 5px;
-  opacity: 0.9;
+  /* background-image: url(./IMG_3910.JPG); */
+  /* background-size:100% auto; */
+}
+h1,h2 span {
+  /* background: linear-gradient(#FFFF00, #1E00FF); */
+  color: red;
+  color: #222;
 }
 
-.btn:hover {
-  opacity: 1.0;
+h1 {
+  font-size: x-large;
+}
+h2 {
+  font-size: medium;
+}
+p {
+  line-height: 1.7;
+}
+a:link, a:visited {
+  color: #37c;
+}
+a:hover {
+  color: #999;
+}
+section, article, aside, nav, header, main, footer {
+  display: block;
+}
+
+/* ページの枠組み
+ -------------------------------------*/
+#page {
+  margin: 0 auto;
+  width: 900px;
+}
+main {
+  float: left;
+  width: 450px;
+
+}
+#sub {
+  float: right;
+  width: 450px;
+
+}
+footer {
+  clear: both;
+}
+footer section {
+  float: left;
+  width: 280px;
+}
+footer section:nth-child(2) {
+  margin: 0 30px;
+}
+#copyright {
+  clear: both;
+}
+
+ /* ヘッダ
+ -------------------------------------*/
+header img{
+  display: block;
+}
+#logo {
+  margin: 20px 0;
+}
+
+ /* ナビゲーション
+ -------------------------------------*/
+nav ul {
+  overflow: hidden;
+  margin: 0 0 10px 0;
+  padding: 0;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  box-shadow: inset 1px 1px 0 #fff, 1px 1px 3px rgba(0,0,0,0.1);
+  line-height: 1.0;
+  background: url(images/li-bg.jpg) repeat-x bottom;
+}
+nav li, nav a {
+  display: block;
+}
+nav li {
+  float: left;
+  border-right: 1px solid #ddd;
+}
+nav a {
+  padding: 15px 25px;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 #fff;
+}
+nav a:hover {
+  color: #333;
+  background: #fff;
+}
+
+ /* サイドバー
+ -------------------------------------*/
+ #sub aside {
+  margin: 20px 0 20px 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  background-color: #f5f5f5;
+  box-shadow: inset 1px 1px 0 #fff, 1px 1px 3px rgba(0,0,0,0.1);
+  text-shadow: 1px 1px 0 #fff;
+ }
+ #sub img {
+   float: left;
+   margin: 0.4em 7px 0 0;
+ }
+ /* フッタ
+ -------------------------------------*/
+footer {
+  border-top: 1px solide #ccc;
+}
+#copyright {
+  padding-top: 20px;
+  text-align: center;
+  color: #999;
 }
