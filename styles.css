@@ -1,9 +1,11 @@
-  font-family: Verdana,sans-serif;
+body{
+
+font-family: Verdana,sans-serif;
   color: #333;
 }
 
 header{
   color: #fff;
-  background: url(../img/bg.png);
+  background: url(../img/IMG_20190224_013242_427.jpg);
   background-size: cover;
 }
